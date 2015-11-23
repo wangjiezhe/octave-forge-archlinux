@@ -1,0 +1,14 @@
+#!/bin/sh
+
+pkgname=${PWD##*/}
+
+git init
+git config core.autocrlf false
+
+git remote add origin ssh://aur@aur.archlinux.org/${pkgname}.git
+
+tmpdir=$(mktemp -d -p /tmp octave-XXXXXX)
+mv PKGBUILD ${pkgname}.install ${tmpdir}
+git pull origin master
+mv ${tmpdir}/* ./
+rmdir ${tmpdir}
