@@ -9,8 +9,8 @@
 
 _pack=fem-fenics
 pkgname=octave-$_pack
-pkgver=0.0.4
-pkgrel=2
+pkgver=0.0.5
+pkgrel=1
 pkgdesc="pkg for the resolution of partial differential equations based on fenics"
 arch=(any)
 url="http://octave.sourceforge.net/$_pack/"
@@ -25,7 +25,7 @@ install=$pkgname.install
 _archive=$_pack-$pkgver.tar.gz
 source=("http://downloads.sourceforge.net/octave/$_archive")
 noextract=("$_archive")
-md5sums=('e6817b462e854bd7aea51913a49a44d6')
+md5sums=('554630ad1e195bc0a9f8f1eeb0e30ebd')
 
 _octave_run() {
 	octave --no-history --no-init-file --no-window-system -q -f --eval "$*"
