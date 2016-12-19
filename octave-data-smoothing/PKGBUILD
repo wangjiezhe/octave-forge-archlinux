@@ -9,7 +9,7 @@
 _pack=data-smoothing
 pkgname=octave-$_pack
 pkgver=1.3.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Algorithms for smoothing noisy data"
 arch=(any)
 url="http://octave.sourceforge.net/$_pack/"
