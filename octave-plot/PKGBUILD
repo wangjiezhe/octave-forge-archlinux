@@ -9,7 +9,7 @@
 _pack=plot
 pkgname=octave-$_pack
 pkgver=1.1.0
-pkgrel=4
+pkgrel=5
 pkgdesc="Additional ploting tools for Octave."
 arch=(any)
 url="http://octave.sourceforge.net/$_pack/"
