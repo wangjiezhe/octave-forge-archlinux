@@ -9,7 +9,7 @@
 _pack=multicore
 pkgname=octave-$_pack
 pkgver=0.2.15
-pkgrel=3
+pkgrel=4
 pkgdesc="An Octave-forge package providing functions for parallel processing on multiple cores."
 arch=(any)
 url="http://octave.sourceforge.net/$_pack/"

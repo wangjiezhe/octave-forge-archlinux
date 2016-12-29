@@ -9,7 +9,7 @@
 _pack=nnet
 pkgname=octave-$_pack
 pkgver=0.1.13
-pkgrel=3
+pkgrel=4
 pkgdesc="A feed forward multi-layer neural network."
 arch=(any)
 url="http://octave.sourceforge.net/$_pack/"
