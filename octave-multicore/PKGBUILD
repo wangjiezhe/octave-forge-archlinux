@@ -12,7 +12,7 @@ pkgver=0.2.15
 pkgrel=4
 pkgdesc="An Octave-forge package providing functions for parallel processing on multiple cores."
 arch=(any)
-url="http://octave.sourceforge.net/$_pack/"
+url="https://octave.sourceforge.net/$_pack/"
 license=('GPL')
 groups=('octave-forge')
 depends=('octave>=2.9.12')
@@ -22,9 +22,9 @@ backup=()
 options=()
 install=$pkgname.install
 _archive=$_pack-$pkgver.tar.gz
-source=("http://downloads.sourceforge.net/octave/$_archive")
+source=("https://downloads.sourceforge.net/octave/$_archive")
 noextract=("$_archive")
-md5sums=('ae3fc6bf5e54f37924ef6f0b24463bcf')
+sha256sums=('ae3fc6bf5e54f37924ef6f0b24463bcf')
 
 _octave_run() {
 	octave --no-history --no-init-file --no-window-system -q -f --eval "$*"

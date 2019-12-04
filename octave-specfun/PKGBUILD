@@ -12,7 +12,7 @@ pkgver=1.1.0
 pkgrel=6
 pkgdesc="Special functions including ellipitic functions, etc"
 arch=(any)
-url="http://octave.sourceforge.net/$_pack/"
+url="https://octave.sourceforge.net/$_pack/"
 license=('custom')
 groups=('octave-forge')
 depends=('octave>=3.4.0')
@@ -22,9 +22,9 @@ backup=()
 options=()
 install=$pkgname.install
 _archive=$_pack-$pkgver.tar.gz
-source=("http://downloads.sourceforge.net/octave/$_archive")
+source=("https://downloads.sourceforge.net/octave/$_archive")
 noextract=("$_archive")
-md5sums=('eef8c1ff37b05d5e3388ecedc045d53a')
+sha256sums=('eef8c1ff37b05d5e3388ecedc045d53a')
 
 _octave_run() {
 	octave --no-history --no-init-file --no-window-system -q -f --eval "$*"

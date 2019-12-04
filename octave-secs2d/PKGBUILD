@@ -13,7 +13,7 @@ pkgver=0.0.8
 pkgrel=4
 pkgdesc="A Drift-Diffusion simulator for 2d semiconductor devices"
 arch=(any)
-url="http://octave.sourceforge.net/$_pack/"
+url="https://octave.sourceforge.net/$_pack/"
 license=('GPL')
 groups=('octave-forge')
 depends=('octave>=2.9.17')
@@ -24,10 +24,10 @@ options=()
 install=$pkgname.install
 _archive=$_pack-$pkgver.tar.gz
 _archive_patched=$_pack-$pkgver-patched.tar.gz
-source=("http://downloads.sourceforge.net/octave/$_archive"
+source=("https://downloads.sourceforge.net/octave/$_archive"
 		"octave_map.patch")
 noextract=("$_archive")
-md5sums=('fd4d93f4d4ebed9ceae0d7aed88c18bf'
+sha256sums=('fd4d93f4d4ebed9ceae0d7aed88c18bf'
          'c9cfc1bcf2a7fa1f0c5c582d0f8c7445')
 
 _octave_run() {

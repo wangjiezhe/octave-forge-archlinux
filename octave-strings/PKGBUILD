@@ -12,7 +12,7 @@ pkgver=1.2.0
 pkgrel=4
 pkgdesc="Additional functions for manipulation and analysis of strings."
 arch=(any)
-url="http://octave.sourceforge.net/$_pack/"
+url="https://octave.sourceforge.net/$_pack/"
 license=('custom')
 groups=('octave-forge')
 depends=('octave>=3.8.0')
@@ -22,9 +22,9 @@ backup=()
 options=()
 install=$pkgname.install
 _archive=$_pack-$pkgver.tar.gz
-source=("http://downloads.sourceforge.net/octave/$_archive")
+source=("https://downloads.sourceforge.net/octave/$_archive")
 noextract=("$_archive")
-md5sums=('d8554b4131f753f0cc9fddebd985a8f3')
+sha256sums=('d8554b4131f753f0cc9fddebd985a8f3')
 
 _octave_run() {
 	octave --no-history --no-init-file --no-window-system -q -f --eval "$*"

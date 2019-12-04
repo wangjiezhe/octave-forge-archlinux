@@ -13,7 +13,7 @@ pkgver=0.1.5
 pkgrel=4
 pkgdesc="Package for solving DC and transient electrical circuit equations "
 arch=(any)
-url="http://octave.sourceforge.net/$_pack/"
+url="https://octave.sourceforge.net/$_pack/"
 license=('GPL')
 groups=('octave-forge')
 depends=('octave>=3.0.0' 'octave-odepkg')
@@ -23,9 +23,9 @@ backup=()
 options=()
 install=$pkgname.install
 _archive=$_pack-$pkgver.tar.gz
-source=("http://downloads.sourceforge.net/octave/$_archive")
+source=("https://downloads.sourceforge.net/octave/$_archive")
 noextract=("$_archive")
-md5sums=('9a8b2b01f837ac20b876a7442516add1')
+sha256sums=('9a8b2b01f837ac20b876a7442516add1')
 
 _octave_run() {
 	octave --no-history --no-init-file --no-window-system -q -f --eval "$*"
